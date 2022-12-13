@@ -41,17 +41,10 @@ def onclick(event, window, ax, x1, x2, y, c, metric, vote, neighbours):
     closest = sorted(closest, key=lambda record: record["dist"])
 
     v = []
-    k = 0
-    for record in closest:
-        if k == neighbours or len(closest) == k:
-            break
-
-        #Sprawdzam czy odleglosc jest unikalna
-        if not any(dictionary.get("dist") == record["dist"] for dictionary in v):
-            k += 1
-
-        v.append(record)
-
+    if neighbours > len(closest):
+        v = closest
+    else:
+        v = closest[:neighbours]
 
     classes = {}
     for record in v:
