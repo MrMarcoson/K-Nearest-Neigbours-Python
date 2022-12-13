@@ -54,5 +54,3 @@ Wedle sprecyzowanych danych wejściowych mogą istnieć klasy z przedziału 0-5.
 | x2      | Druga zmienna w pliku wejściowym, odwzierciedlona na osi y    |
 | y       | Klasa punktu                                                  |
 | dist    | Odległość punktu od miejsca zaznaczonego                      |
-
-*Ilość sąsiadów nie zawsze musi wynosić zaznaczoną liczbę z zakresu 1-20. Gdy istnieją sąsiedzi o tej samej odległości to wszystkie są brane pod uwagę. 
