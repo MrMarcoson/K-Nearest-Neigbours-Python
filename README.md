@@ -18,6 +18,24 @@ Autor: Marek Kasprowicz
 ## Uruchamianie programu
 >python main.py
 
+## Dane wejściowe
+
+Każdy z wierszy pliku zawierającego zbiór uczący zawiera 3-elementowy ciąg liczb oddzielonych przecinkami. Pierwsze 2 elementy tego ciągu to liczby rzeczywiste oznaczające wartości zmiennych opisujących. Trzeci element to liczba naturalna z zakresu 0-5 oznaczająca wartość zmiennej celu - kategorię do której należy dana obserwacja.
+
+### Przykładowe dane
+
+```
+5.1,3.5,0
+4.9,3,0
+4.7,3.2,1
+4.6,3.1,1
+5,3.6,2
+5.4,3.9,2
+4.6,3.4,3
+5,3.4,3
+4.3,3,4
+```
+
 ## Używanie programu
 
 1. Wybierz plik z danymi:
